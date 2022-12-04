@@ -1,0 +1,23 @@
+{
+  "homepage": "https://Mohaned-Khaled.guthub.io/HTML_CSS_JS_PROJECT_ONE",
+  "name": "template4",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "install": "^0.13.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.7.0"
+  }
+}
